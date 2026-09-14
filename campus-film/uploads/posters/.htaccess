@@ -1,0 +1,5 @@
+# 海报目录仅允许访问静态图片
+php_flag engine off
+<FilesMatch "\.(php|phtml|phar)$">
+  Require all denied
+</FilesMatch>
